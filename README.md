@@ -4,3 +4,6 @@
 docker build -t sumapp .  
 
 docker run -it myimage python app.py
+
+
+docker run -p 5000:5000 my-flask-app
