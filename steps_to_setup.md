@@ -55,15 +55,15 @@ docker tag my-app:1.0 <your-dockerhub-username>/<repository-name>:<tag>
 This renames your image to the format Docker Hub expects.
 
 
-Push the Docker Image:
+Push the Docker Image:<br/>
 docker push <your-dockerhub-username>/<repository-name>:<tag>
 
-Use the docker pull command to fetch the Docker image from Docker Hub:
+Use the docker pull command to fetch the Docker image from Docker Hub:<br/>
 docker pull <your-dockerhub-username>/<repository-name>:<tag>
 
-Use the docker pull command to fetch the Docker image from Docker Hub:
+Use the docker pull command to fetch the Docker image from Docker Hub:<br/>
 docker pull <your-dockerhub-username>/<repository-name>:<tag>
 
-Run the Docker Container: \
+Run the Docker Container:<br/>
 docker run -d -p 5000:5000 <your-dockerhub-username>/<repository-name>:<tag>
 
