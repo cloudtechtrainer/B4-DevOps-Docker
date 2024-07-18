@@ -41,15 +41,15 @@ git clone https://github.com/cloudtechtrainer/B4-DevOps-Docker
 Build the Docker Image:\
 docker build -t my-app:1.0 .
 
-This command tells Docker to build an image using the current directory (.) as the build context.\
-Run the Docker Container:\
+This command tells Docker to build an image using the current directory (.) as the build context.<br/>
+Run the Docker Container:<br/>
 I
 docker run -p 5000:5000 my-app:1.0
 
-Login to Docker Hub:
+Login to Docker Hub:<br/>
 docker login --username=<your-dockerhub-username>
 
-Tag your Docker Image:
+Tag your Docker Image:<br/>
 docker tag my-app:1.0 <your-dockerhub-username>/<repository-name>:<tag>
 
 This renames your image to the format Docker Hub expects.
