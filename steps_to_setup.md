@@ -5,7 +5,7 @@ Install GIT
 sudo apt update\
 sudo apt install git\
 git -version\
-sudo apt update\
+sudo apt update
 
 ---------------\
 Install Docker\
