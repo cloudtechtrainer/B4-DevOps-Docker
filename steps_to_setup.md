@@ -38,11 +38,11 @@ sudo docker --version
 Use the git clone command to clone the repository:
 git clone https://github.com/cloudtechtrainer/B4-DevOps-Docker
 
-Build the Docker Image:
+Build the Docker Image:\
 docker build -t my-app:1.0 .
 
-This command tells Docker to build an image using the current directory (.) as the build context.
-Run the Docker Container:
+This command tells Docker to build an image using the current directory (.) as the build context.\
+Run the Docker Container:\
 I
 docker run -p 5000:5000 my-app:1.0
 
